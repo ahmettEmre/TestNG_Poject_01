@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import page.AmazonPage;
 import utilities.ConfigReader;
@@ -39,6 +40,15 @@ public class C02_amazonAlisveris {
                 .sendKeys(Keys.SPACE)
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.SPACE).perform();
+
+        //6. Cikan ilk urun altinda "Watch this deal" yazisina tiklayin
+        amazonPage.todaysdealsilkUrun.click();
+
+        //7. gecersiz bir mail adresi girin ve yanlis oldugunu dogrulayin
+        amazonPage.signIn.sendKeys(ConfigReader.getProperty("negatifGirisMaili")+Keys.ENTER);
+        Assert.assertTrue(amazonPage.errorKutusu.isDisplayed());
+
+
 
 
     }

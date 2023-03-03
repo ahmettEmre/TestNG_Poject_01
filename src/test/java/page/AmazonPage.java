@@ -24,6 +24,16 @@ public class AmazonPage {
     @FindBy(xpath = "//h4[.='Prime programs']")
     public WebElement primePrograms;
 
+    @FindBy(xpath = "(//input[@class='a-button-input'])[1]")
+    public WebElement todaysdealsilkUrun;
+
+    @FindBy(id = "ap_email")
+    public WebElement signIn;
+
+    @FindBy(id = "auth-error-message-box")
+    public WebElement errorKutusu;
+
+
 
 
 
