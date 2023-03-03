@@ -1,0 +1,9 @@
+
+-----------------Proje Yapım aşamaları------------------
+    1-POM kurulumu
+    2-Page,Test,Utilities ve Configuration dosya ve packageları düzenleme
+    3-ConfigReader classını olusturduk
+    4-Driver classını olusturduk
+    5-ReusableMethods classını olusturduk
+    6-Page package ından AmazonPage classını olusturup, gerekli olabilecek locateleri çalışmaya yazdık.
+    7-Test classının içinde testleri gerçekleştirdik.
