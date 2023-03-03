@@ -52,4 +52,10 @@ public class C02_amazonAlisveris {
 
 
     }
+    @Test
+    public void amazonHesapAcma(){
+
+        //1.amazon hesap acma
+        //2.hesap actiktan sonra 3 urun alip satin almaya basma
+    }
 }
