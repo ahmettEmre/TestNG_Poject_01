@@ -1,5 +1,6 @@
 package page;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -19,6 +20,9 @@ public class AmazonPage {
 
     @FindBy(xpath = "//a[@data-csa-c-slot-id='nav_cs_0']")
     public WebElement todaysdeals;
+
+    @FindBy(xpath = "//h4[.='Prime programs']")
+    public WebElement primePrograms;
 
 
 
