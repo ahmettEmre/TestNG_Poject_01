@@ -18,11 +18,11 @@ public class C01 {
         String actual=Driver.getDriver().getCurrentUrl();
         Assert.assertTrue(actual.contains(expected));
         amazonPage.aramaKutusu.sendKeys("ipad"+ Keys.ENTER);
-        expected="1-16 of 995 results for \"ipad\"";
+        expected="1-16 of over 1,000 results for \"ipad\"";
         actual=amazonPage.aramaSonucElementi.getText();
         Assert.assertTrue(actual.contains(expected));
 
-        amazonPage.angebotDesTages.click();
+        amazonPage.todaysdeals.click();
 
 
     }

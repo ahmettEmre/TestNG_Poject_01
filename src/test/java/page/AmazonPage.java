@@ -18,7 +18,7 @@ public class AmazonPage {
     public WebElement ilkUrun;
 
     @FindBy(xpath = "//a[@data-csa-c-slot-id='nav_cs_0']")
-    public WebElement angebotDesTages;
+    public WebElement todaysdeals;
 
 
 
