@@ -1,8 +1,6 @@
-package tests.day1;
+package tests.amazonDenemeleri;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,7 +8,7 @@ import page.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class C02_amazonAlisveris {
+public class C02_TestC01_amazonAlisveris {
 
 
 

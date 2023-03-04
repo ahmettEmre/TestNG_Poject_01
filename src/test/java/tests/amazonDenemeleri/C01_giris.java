@@ -1,4 +1,4 @@
-package tests.day1;
+package tests.amazonDenemeleri;
 
 import org.openqa.selenium.Keys;
 import org.testng.Assert;
@@ -7,7 +7,7 @@ import page.AmazonPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-public class C01 {
+public class C01_giris {
     AmazonPage amazonPage=new AmazonPage();
 
     @Test
