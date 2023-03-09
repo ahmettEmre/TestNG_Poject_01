@@ -53,9 +53,6 @@
             <version>4.0.9</version>
         </dependency>
 
-
-
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-http-jdk-client</artifactId>
