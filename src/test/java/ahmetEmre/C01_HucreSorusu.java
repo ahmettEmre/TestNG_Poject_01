@@ -1,12 +1,25 @@
 package ahmetEmre;
 
+import org.openqa.selenium.Keys;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import page.AmazonPage;
+import utilities.ConfigReader;
+import utilities.Driver;
+
 public class C01_HucreSorusu {
 
-    //-> AmazonPage sayfasinda istedigim satir ve sutun sayisi ile cagirdigimda
-    //   bana hucredeki yaziyi getirecek bir method olusturun
-    //-> Tests paketi altinda yeni bir class olusturun: D26_AmazonHucreTesti
-    //-> Bu class’in altinda bir test method olusturun : hucretesti( ) ve webtable’da
-    //   3. satir 2.sutundaki yazinin “Home Services” yazisi icerdigini test edin
-    //-> Yeni bir method olusturun : AmazonYazisi( ) ve tabloda 9 Hucrede
-    //   “Amazon” yazisi bulundugunu test edin
+    AmazonPage amazonPage=new AmazonPage();
+    @Test
+    public void amazonHesapAcma(){
+
+        // US amaci : amazon hesap acma
+        //1- Amazona gidelim
+        //2- sag yukaridan account and list yerine gidip
+        //3- cikan yerden sign in e basin
+        //4- gelen yerde create a amazon account butonunna basin
+        //5- bosluklari doldurun
+        //6- Verify mobile number a basin
+        //7- Verify mobile number yazisin gorunur oldugunu test edin
+    }
 }
