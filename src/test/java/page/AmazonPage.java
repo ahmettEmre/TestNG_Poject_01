@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
+import javax.xml.xpath.XPath;
+
 public class AmazonPage {
     public AmazonPage(){ PageFactory.initElements(Driver.getDriver(),this); }
 
@@ -32,6 +34,9 @@ public class AmazonPage {
 
     @FindBy(id = "auth-error-message-box")
     public WebElement errorKutusu;
+
+    @FindBy(xpath = "//a[@data-nav-ref='nav_signin']")
+    public WebElement signIN;
 
 
 
