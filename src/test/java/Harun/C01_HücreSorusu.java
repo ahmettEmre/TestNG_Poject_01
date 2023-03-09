@@ -10,4 +10,7 @@ public class C01_HücreSorusu {
     //   3. satir 2.sutundaki yazinin “Home Services” yazisi icerdigini test edin
     //-> Yeni bir method olusturun : AmazonYazisi( ) ve tabloda 9 Hucrede
     //   “Amazon” yazisi bulundugunu test edin
+    //git config --global user.email "cigciharun@gmail.com"
+    //git config --global user.name "harun"
+
 }
